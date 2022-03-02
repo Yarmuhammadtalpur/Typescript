@@ -13,3 +13,7 @@ test.class="58"
 console.log(test);
 
 console.log(dataTest);
+
+let UserName = "yar muhammad"
+console.log(UserName);
+

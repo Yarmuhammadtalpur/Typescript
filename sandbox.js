@@ -9,3 +9,5 @@ test.age = "34";
 test["class"] = "58";
 console.log(test);
 console.log(dataTest);
+var UserName = "yar muhammad";
+console.log(UserName);
