@@ -13,14 +13,26 @@ ustring = "Word";
 console.log(string);
 ustring = 2;
 console.log(ustring);
+//object type in var
 let objectName;
 objectName = {
     name: "myName",
     age: 12,
     color: "red"
 };
-console.log("test");
-const add = (a, b) => {
+console.log(objectName);
+const add = (a, b, c) => {
     console.log(a + b);
 };
 add(1, 6);
+let Greet = (x, y) => {
+    console.log(`${x} says ${y}`);
+};
+Greet("helloo", "friend");
+let calc = (numONe, numTwo, action) => {
+    if (action === "add") {
+        return numONe + numTwo;
+    }
+};
+console.log(calc(3, 8, "add"));
+//
